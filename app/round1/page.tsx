@@ -16,8 +16,7 @@ interface Team {
   teamname: string;
 }
 
-export default function Home() {
-  const [currentRound, setCurrentRound] = useState<number | null>(null);
+export default function Round1() {
   const [matches, setMatches] = useState<Match[]>([]);
   const [teams, setTeams] = useState<Team[]>([]);
   const [loading, setLoading] = useState(true);
@@ -25,15 +24,11 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const roundRes = await fetch("/data/current_round.json");
-      const roundData = await roundRes.json();
-      setCurrentRound(roundData.current_round);
-
       const teamsRes = await fetch("/data/teams.json");
       const teamsData = await teamsRes.json();
       setTeams(teamsData);
 
-      const matchesRes = await fetch(`/data/rounds/round${roundData.current_round}.json`);
+      const matchesRes = await fetch(`/data/rounds/round1.json`);
       const matchesData = await matchesRes.json();
       setMatches(matchesData);
       setLoading(false);
@@ -48,9 +43,7 @@ export default function Home() {
   return (
     <div className="font-sans min-h-screen bg-[#f8fafa] flex flex-col items-center pb-6 px-2">
       <h1 className="text-2xl font-extrabold mb-2 text-[#0f7b7b] text-center tracking-tight">Padel Tournament</h1>
-      <h2 className="text-lg font-semibold mb-6 text-[#159f9f] text-center">
-        {loading || currentRound === null ? "Loading..." : `Current Round: ${currentRound}`}
-      </h2>
+      <h2 className="text-lg font-semibold mb-6 text-[#159f9f] text-center">Round 1</h2>
       {loading ? (
         <div className="text-lg text-[#0f7b7b]">Loading matches...</div>
       ) : (
@@ -106,4 +99,4 @@ export default function Home() {
       )}
     </div>
   );
-}
+} 

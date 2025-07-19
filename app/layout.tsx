@@ -27,6 +27,22 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Mobile-first two-row navbar */}
+        <nav className="w-full">
+          {/* Top row: Home, Teams, Standings */}
+          <div className="flex w-full justify-center gap-2 bg-[#0f7b7b] py-2 rounded-t-xl shadow-md">
+            <a href="/" className="flex-1 text-center font-bold text-white px-3 py-2 rounded-lg hover:bg-[#159f9f] transition-colors">Home</a>
+            <a href="/teams" className="flex-1 text-center font-bold text-white px-3 py-2 rounded-lg hover:bg-[#159f9f] transition-colors">Teams</a>
+            <a href="/standings" className="flex-1 text-center font-bold text-white px-3 py-2 rounded-lg hover:bg-[#159f9f] transition-colors">Standings</a>
+          </div>
+          {/* Second row: Rounds */}
+          <div className="flex w-full justify-center gap-2 bg-[#159f9f] py-2 rounded-b-xl shadow-md border-t-2 border-[#0f7b7b]">
+            <a href="/round1" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 1</a>
+            <a href="/round2" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 2</a>
+            <a href="/round3" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 3</a>
+            <a href="/round4" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 4</a>
+          </div>
+        </nav>
         {children}
       </body>
     </html>

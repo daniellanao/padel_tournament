@@ -1,0 +1,18 @@
+[
+  { "position": 1, "team_name": "Padel Masters", "round1": "W", "round2": "W", "round3": "W", "round4": "W", "matches_won": 4, "matches_lost": 0, "games_won": 24, "games_lost": 10, "difference": 14 },
+  { "position": 2, "team_name": "Ace Squad", "round1": "W", "round2": "W", "round3": "W", "round4": "L", "matches_won": 3, "matches_lost": 1, "games_won": 22, "games_lost": 12, "difference": 10 },
+  { "position": 3, "team_name": "Smash Bros", "round1": "W", "round2": "L", "round3": "W", "round4": "W", "matches_won": 3, "matches_lost": 1, "games_won": 20, "games_lost": 14, "difference": 6 },
+  { "position": 4, "team_name": "Spin Doctors", "round1": "W", "round2": "W", "round3": "L", "round4": "W", "matches_won": 3, "matches_lost": 1, "games_won": 19, "games_lost": 13, "difference": 6 },
+  { "position": 5, "team_name": "Net Ninjas", "round1": "L", "round2": "W", "round3": "L", "round4": "W", "matches_won": 2, "matches_lost": 2, "games_won": 16, "games_lost": 16, "difference": 0 },
+  { "position": 6, "team_name": "Baseline Bandits", "round1": "L", "round2": "W", "round3": "W", "round4": "L", "matches_won": 2, "matches_lost": 2, "games_won": 15, "games_lost": 17, "difference": -2 },
+  { "position": 7, "team_name": "Court Kings", "round1": "W", "round2": "L", "round3": "L", "round4": "W", "matches_won": 2, "matches_lost": 2, "games_won": 14, "games_lost": 18, "difference": -4 },
+  { "position": 8, "team_name": "Volley Vipers", "round1": "L", "round2": "W", "round3": "W", "round4": "L", "matches_won": 2, "matches_lost": 2, "games_won": 13, "games_lost": 19, "difference": -6 },
+  { "position": 9, "team_name": "Rally Raiders", "round1": "L", "round2": "L", "round3": "W", "round4": "W", "matches_won": 2, "matches_lost": 2, "games_won": 12, "games_lost": 20, "difference": -8 },
+  { "position": 10, "team_name": "Slice Stars", "round1": "W", "round2": "L", "round3": "L", "round4": "L", "matches_won": 1, "matches_lost": 3, "games_won": 11, "games_lost": 21, "difference": -10 },
+  { "position": 11, "team_name": "Drop Shotters", "round1": "L", "round2": "L", "round3": "W", "round4": "L", "matches_won": 1, "matches_lost": 3, "games_won": 10, "games_lost": 22, "difference": -12 },
+  { "position": 12, "team_name": "Lob Legends", "round1": "L", "round2": "L", "round3": "L", "round4": "W", "matches_won": 1, "matches_lost": 3, "games_won": 9, "games_lost": 23, "difference": -14 },
+  { "position": 13, "team_name": "Serve Aces", "round1": "L", "round2": "L", "round3": "L", "round4": "L", "matches_won": 0, "matches_lost": 4, "games_won": 8, "games_lost": 24, "difference": -16 },
+  { "position": 14, "team_name": "Spin Wizards", "round1": "L", "round2": "L", "round3": "L", "round4": "L", "matches_won": 0, "matches_lost": 4, "games_won": 7, "games_lost": 25, "difference": -18 },
+  { "position": 15, "team_name": "Net Smashers", "round1": "L", "round2": "L", "round3": "L", "round4": "L", "matches_won": 0, "matches_lost": 4, "games_won": 6, "games_lost": 26, "difference": -20 },
+  { "position": 16, "team_name": "Power Paddlers", "round1": "L", "round2": "L", "round3": "L", "round4": "L", "matches_won": 0, "matches_lost": 4, "games_won": 5, "games_lost": 27, "difference": -22 }
+] 

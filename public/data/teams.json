@@ -1,0 +1,18 @@
+[
+  { "team_id": 1, "team_name": "Padel Masters", "player1name": "Alice Smith", "player2name": "Bob Jones" },
+  { "team_id": 2, "team_name": "Smash Bros", "player1name": "Carlos Ruiz", "player2name": "Diana Lee" },
+  { "team_id": 3, "team_name": "Net Ninjas", "player1name": "Eva Müller", "player2name": "Frank Wang" },
+  { "team_id": 4, "team_name": "Ace Squad", "player1name": "Grace Kim", "player2name": "Hugo Silva" },
+  { "team_id": 5, "team_name": "Spin Doctors", "player1name": "Ivan Petrov", "player2name": "Julia Rossi" },
+  { "team_id": 6, "team_name": "Baseline Bandits", "player1name": "Kenji Tanaka", "player2name": "Lina Novak" },
+  { "team_id": 7, "team_name": "Court Kings", "player1name": "Marta Lopez", "player2name": "Nils Berg" },
+  { "team_id": 8, "team_name": "Volley Vipers", "player1name": "Olga Ivanova", "player2name": "Pablo Garcia" },
+  { "team_id": 9, "team_name": "Rally Raiders", "player1name": "Quinn Brown", "player2name": "Rita Singh" },
+  { "team_id": 10, "team_name": "Slice Stars", "player1name": "Samir Patel", "player2name": "Tina Müller" },
+  { "team_id": 11, "team_name": "Drop Shotters", "player1name": "Uma Shah", "player2name": "Victor Hugo" },
+  { "team_id": 12, "team_name": "Lob Legends", "player1name": "Wendy Lee", "player2name": "Xander Zhou" },
+  { "team_id": 13, "team_name": "Serve Aces", "player1name": "Yara Costa", "player2name": "Zane Malik" },
+  { "team_id": 14, "team_name": "Spin Wizards", "player1name": "Ava Kim", "player2name": "Ben Fox" },
+  { "team_id": 15, "team_name": "Net Smashers", "player1name": "Cleo Sun", "player2name": "Dan Wolf" },
+  { "team_id": 16, "team_name": "Power Paddlers", "player1name": "Ella White", "player2name": "Finn Black" }
+] 
