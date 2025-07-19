@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface Match {
   id: number;
@@ -47,6 +48,14 @@ export default function Home() {
 
   return (
     <div className="font-sans min-h-screen bg-[#f8fafa] flex flex-col items-center pb-6 px-2">
+      <Image
+        src="/padel_tournament.jpg"
+        alt="Padel Tournament"
+        width={320}
+        height={120}
+        className="rounded-xl mb-3 shadow-md object-cover w-full max-w-xs"
+        priority
+      />
       <h1 className="text-2xl font-extrabold mb-2 text-[#0f7b7b] text-center tracking-tight">Padel Tournament</h1>
       <h2 className="text-lg font-semibold mb-6 text-[#159f9f] text-center">
         {loading || currentRound === null ? "Loading..." : `Current Round: ${currentRound}`}

@@ -43,7 +43,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Mobile-first two-row navbar */}
-        <nav className="w-full">
+        <nav className="w-full fixed top-0 left-0 z-50">
           {/* Top row: Home, Teams, Standings */}
           <div className="flex w-full justify-center gap-2 bg-[#0f7b7b] py-2 rounded-t-xl shadow-md">
             <Link href="/" className="flex-1 text-center font-bold text-white px-3 py-2 rounded-lg hover:bg-[#159f9f] transition-colors">Home</Link>
@@ -58,7 +58,12 @@ export default function RootLayout({
             <Link href="/round4" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 4</Link>
           </div>
         </nav>
-        {children}
+        <div className="pt-[120px] sm:pt-[120px] min-h-[calc(100vh-120px)] flex flex-col">
+          {children}
+          <footer className="w-full mt-auto bg-[#0f7b7b] text-white text-center py-3 text-sm font-semibold shadow-inner">
+            App sponsored by <a href="https://sportchain.itzimi.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#159f9f] transition-colors">Sportchain 2025</a>
+          </footer>
+        </div>
       </body>
     </html>
   );
