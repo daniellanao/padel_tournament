@@ -1,10 +1,6 @@
 [
-  { "id": 1, "team1_id": 1, "team2_id": 2, "games_team1": 6, "games_team2": 4, "winner_team_id": 1 },
-  { "id": 2, "team1_id": 3, "team2_id": 4, "games_team1": 3, "games_team2": 6, "winner_team_id": 4 },
-  { "id": 3, "team1_id": 5, "team2_id": 6, "games_team1": 6, "games_team2": 2, "winner_team_id": 5 },
-  { "id": 4, "team1_id": 7, "team2_id": 8, "games_team1": 4, "games_team2": 6, "winner_team_id": 8 },
-  { "id": 5, "team1_id": 9, "team2_id": 10, "games_team1": 2, "games_team2": 6, "winner_team_id": 10 },
-  { "id": 6, "team1_id": 11, "team2_id": 12, "games_team1": 6, "games_team2": 3, "winner_team_id": 11 },
-  { "id": 7, "team1_id": 13, "team2_id": 14, "games_team1": 5, "games_team2": 6, "winner_team_id": 14 },
-  { "id": 8, "team1_id": 15, "team2_id": 16, "games_team1": 6, "games_team2": 4, "winner_team_id": 15 }
+  { "id": 1, "team1_name": "Ace Investors", "team2_name": "Marco Capital", "games_team1": 6, "games_team2": 4, "winner_team_name": "Ace Investors" },
+  { "id": 2, "team1_name": "Net Ninjas", "team2_name": "Court Kings", "games_team1": 3, "games_team2": 6, "winner_team_name": "Court Kings" },
+  { "id": 3, "team1_name": "Axel Ventures", "team2_name": "Founders on Fire", "games_team1": 6, "games_team2": 2, "winner_team_name": "Axel Ventures" },
+  { "id": 4, "team1_name": "Volley Vipers", "team2_name": "Spin Wizards", "games_team1": 4, "games_team2": 6, "winner_team_name": "Spin Wizards" }
 ] 

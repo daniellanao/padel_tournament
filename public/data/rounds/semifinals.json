@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "team1_name": "Team A",
+    "team2_name": "Team B",
+    "games_team1": 0,
+    "games_team2": 0,
+    "winner_team_name": ""
+  },
+  {
+    "id": 2,
+    "team1_name": "Team C",
+    "team2_name": "Team D",
+    "games_team1": 0,
+    "games_team2": 0,
+    "winner_team_name": ""
+  }
+] 

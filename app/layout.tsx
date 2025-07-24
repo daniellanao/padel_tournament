@@ -55,7 +55,7 @@ export default function RootLayout({
             <Link href="/round1" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 1</Link>
             <Link href="/round2" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 2</Link>
             <Link href="/round3" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 3</Link>
-            <Link href="/round4" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Round 4</Link>
+            <Link href="/finals" className="flex-1 text-center font-semibold text-white px-2 py-2 rounded-lg hover:bg-[#0f7b7b] transition-colors">Finals</Link>
           </div>
         </nav>
         <div className="pt-[120px] sm:pt-[120px] min-h-[calc(100vh-120px)] flex flex-col">
