@@ -29,11 +29,14 @@ export default function Finals() {
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const semifinalsRes = await fetch("/data/rounds/semifinals.json");
+      //const semifinalsRes = await fetch("/data/rounds/semifinals.json");
+      const semifinalsRes = await fetch("https://sportchain.itzimi.com/api/semifinals");
       const semifinalsData = await semifinalsRes.json();
       setSemifinals(semifinalsData);
 
-      const finalsRes = await fetch("/data/rounds/finals.json");
+      //const finalsRes = await fetch("/data/rounds/finals.json");
+      const finalsRes = await fetch(`https://sportchain.itzimi.com/api/finals`);
+      
       const finalsData = await finalsRes.json();
       setFinals(finalsData);
       setLoading(false);

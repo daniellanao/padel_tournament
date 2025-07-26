@@ -18,7 +18,8 @@ export default function Round3() {
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const matchesRes = await fetch(`/data/rounds/round3.json`);
+      //const matchesRes = await fetch(`/data/rounds/round3.json`);
+      const matchesRes = await fetch(`https://sportchain.itzimi.com/api/rounds/3`);
       const matchesData = await matchesRes.json();
       setMatches(matchesData);
       setLoading(false);

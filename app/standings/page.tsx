@@ -23,7 +23,8 @@ export default function Standings() {
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const res = await fetch("/data/standings.json");
+      //const res = await fetch("/data/standings.json");
+      const res = await fetch("https://sportchain.itzimi.com/api/standings");
       const data = await res.json();
       setStandings(data);
       setLoading(false);

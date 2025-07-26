@@ -19,7 +19,8 @@ export default function Teams() {
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const res = await fetch("/data/teams.json");
+      //const res = await fetch("/data/teams.json");
+      const res = await fetch(`https://sportchain.itzimi.com/api/teams`);
       const data = await res.json();
       setTeams(data);
       setLoading(false);
